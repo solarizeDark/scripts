@@ -18,9 +18,9 @@ do
 	group=""
 	[ $age -le 16 ] && group="child"
 	[ $age -gt 25 ] && group="adult"
-	[ -z $answer ]  && group="youth" 
+	[ -z $group ]  && group="youth" 
 
-	echo "$name, your group is $answer"
+	echo "$name, your group is $group"
 
 done
 echo "Bye"
